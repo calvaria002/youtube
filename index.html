@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/sidebar.css">
     <title>Youtube Clone</title>
 </head>
 <body>
-   
+                                <!--HEADER-->
+
     <header> 
     <div class="left-section">      
         <a  href=""> <img class="hamburger-menu" src="icon/hamburger-menu.svg" alt=""> </a>
@@ -24,19 +26,36 @@
     <div class="right-section">    
       <a href="" > <img class="upload" src="icon/upload.svg" alt=""> </a>
        <a href=""> <img class="youtube-apps" src="icon/youtube-apps.svg" alt=""> </a>
-      <a href="" >  <img class="noti" src="icon/notifications.svg" alt=""> </a>
-       <a href="" > <img class="channel-dp" src="thumpnails/channel-dp.jpeg" alt=""> </a>
+      <div class="noti-bell" href="" > 
+        <a href=""> <img class="noti" src="icon/notifications.svg" alt="">
+        <div class="noti-num"> 3 </div> </a>
+      </div>
+     
+      <a href="" > <img class="channel-dp" src="thumpnails/channel-dp.jpeg" alt=""> </a>
     </div>
 </header>
 
+                        <!-- SIDE-BAR-->
+<div class="sidebar">
+      <div class="home">
+    <div class="nav-sidebar"></div>
+      <div class="nav-sidebar"></div>
+      <div class="nav-sidebar"></div>
+      <div class="nav-sidebar"></div>
+      <div class="nav-sidebar"></div>
+      <div class="nav-sidebar"></div>
 
+</div>
 
 
                         <!--Boxes-->
  <div class="grid-vid-preview"> 
                         <!-- Box 1-->
     <div class="video-preview">
+        <div class="vid-thumpnail">
         <img class="thumpnails" src="thumpnails/thumbnail-1.webp" alt="">
+        <div class="video-time"> 14:20 </div>
+    </div>
         <div class="grid-vid-des">
             <a class="logo" href=""> <img src="thumpnails/logo1.jpeg" alt=""> </a>
           <div class="vid-info">
@@ -49,8 +68,11 @@
     </div>
                          <!-- Box 2-->   
      <div class="video-preview">
-        <img class="thumpnails" src="thumpnails/thumbnail-2.webp" alt="">
-        <div class="grid-vid-des">
+        <div class="vid-thumpnail">
+         <img class="thumpnails" src="thumpnails/thumbnail-2.webp" alt="">
+         <div class="video-time"> 8:22 </div>
+       </div> 
+       <div class="grid-vid-des">
             <a class="logo" href=""> <img src="thumpnails/logo2.jpeg" alt=""> </a>
           <div class="vid-info">
               <p class="title"> Try Not To Laugh Challenge #9 </p>
@@ -61,7 +83,10 @@
     </div>
                         <!-- Box 3-->
     <div class="video-preview">
-        <img class="thumpnails" src="thumpnails/thumbnail-3.webp" alt="">
+        <div class="vid-thumpnail">
+         <img class="thumpnails" src="thumpnails/thumbnail-3.webp" alt="">
+         <div class="video-time"> 9:13 </div>
+        </div>
         <div class="grid-vid-des">
             <a class="logo" href=""> <img src="thumpnails/logo3.jpeg" alt=""> </a>
           <div class="vid-info">
@@ -74,7 +99,10 @@ Crazy Tik Toks Taken Moments Before DISASTER</p>
     </div>
                         <!-- Box 4-->
         <div class="video-preview">
-            <img class="thumpnails" src="thumpnails/thumbnail-4.webp" alt="">          
+            <div class="vid-thumpnail">
+                <img class="thumpnails" src="thumpnails/thumbnail-4.webp" alt="">          
+                <div class="video-time"> 22:09 </div>
+            </div>
             <div class="grid-vid-des">           
                 <a class="logo" href=""> <img src="thumpnails/logo4.jpeg" alt=""> </a>
               <div class="vid-info">
@@ -86,7 +114,10 @@ Crazy Tik Toks Taken Moments Before DISASTER</p>
         </div>
                         <!-- Box 5-->
         <div class="video-preview">
-            <img class="thumpnails" src="thumpnails/thumbnail-5.webp" alt="">          
+            <div class="vid-thumpnail">
+             <img class="thumpnails" src="thumpnails/thumbnail-5.webp" alt="">          
+             <div class="video-time"> 11:27 </div>
+            </div>
             <div class="grid-vid-des">           
                 <a class="logo" href=""> <img src="thumpnails/logo5.jpeg" alt=""> </a>
               <div class="vid-info">
@@ -99,7 +130,10 @@ Kadane's Algorithm to Maximum Sum Subarray Problem </p>
         </div>
                                 <!-- Box 6-->
         <div class="video-preview">
-            <img class="thumpnails" src="thumpnails/thumbnail-6.webp" alt="">          
+            <div class="vid-thumpnail">
+             <img class="thumpnails" src="thumpnails/thumbnail-6.webp" alt="">          
+             <div class="video-time"> 19:59 </div>
+            </div>
             <div class="grid-vid-des">           
                 <a class="logo" href=""> <img src="thumpnails/logo6.jpeg" alt=""> </a>
               <div class="vid-info">
@@ -111,7 +145,10 @@ Kadane's Algorithm to Maximum Sum Subarray Problem </p>
         </div>
                         <!-- Box 7-->
         <div class="video-preview">
-            <img class="thumpnails" src="thumpnails/thumbnail-7.webp" alt="">          
+            <div class="vid-thumpnail">
+             <img class="thumpnails" src="thumpnails/thumbnail-7.webp" alt="">          
+             <div class="video-time"> 10:13 </div>
+            </div>
             <div class="grid-vid-des">           
                 <a class="logo" href=""> <img src="thumpnails/logo7.jpeg" alt=""> </a>
               <div class="vid-info">
@@ -123,8 +160,11 @@ Kadane's Algorithm to Maximum Sum Subarray Problem </p>
         </div>
                                     <!-- Box 8-->
         <div class="video-preview">
-            <img class="thumpnails" src="thumpnails/thumbnail-8.webp" alt="">          
-            <div class="grid-vid-des">           
+            <div class="vid-thumpnail">
+             <img class="thumpnails" src="thumpnails/thumbnail-8.webp" alt="">          
+             <div class="video-time"> 7:12 </div>
+            </div> 
+           <div class="grid-vid-des">           
                 <a class="logo" href=""> <img src="thumpnails/logo8.jpeg" alt=""> </a>
               <div class="vid-info">
                   <p class="title"> Inside The World's Biggest Passenger Plane</p>
@@ -135,7 +175,10 @@ Kadane's Algorithm to Maximum Sum Subarray Problem </p>
         </div>
                                 <!-- Box 9-->
         <div class="video-preview">
-            <img class="thumpnails" src="thumpnails/thumbnail-9.webp" alt="">          
+            <div class="vid-thumpnail">
+             <img class="thumpnails" src="thumpnails/thumbnail-9.webp" alt="">          
+             <div class="video-time"> 13:17 </div>
+            </div>
             <div class="grid-vid-des">           
                 <a class="logo" href=""> <img src="thumpnails/logo9.jpeg" alt=""> </a>
               <div class="vid-info">

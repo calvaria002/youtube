@@ -2,9 +2,15 @@ header {
   display: flex;
   height: 60px;
   justify-content: space-between;
+  background-color: white;
   border-bottom-color: rgb(222, 222, 222);
   border-bottom-width: 1px;
   border-bottom-style: solid;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
 }
 
 .left-section {
@@ -40,7 +46,7 @@ header {
 .search-bar {
   flex: 1;
   height: 40px;
-  max-width: 400px;
+  width: 0;
   border-color: rgb(144, 134, 134);
   border-width: 1px;
 }
@@ -52,6 +58,7 @@ header {
   background-color: rgb(247, 242, 242);
   border-width: 1px;
   border-color: rgb(144, 134, 134);
+  cursor: pointer;
 }
 
 .mic-button {
@@ -61,6 +68,13 @@ header {
   border: none;
   margin-left: 20px;
   background-color: rgb(247, 242, 242);
+  cursor: pointer;
+}
+
+.mic-img {
+  width: 24px;
+  height: 24px;
+  margin-left: 15px;
 }
 
 .right-section {
@@ -69,6 +83,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-shrink: 0px;
 }
 
 .right-section .upload,
@@ -78,21 +93,24 @@ header {
   height: 24px;
 }
 
+.noti-bell {
+  position: relative;
+}
+
+.noti-num {
+  background-color: rgb(193, 7, 7);
+  color: white;
+  position: absolute;
+  font-size: 11px;
+  padding: 2px 5px;
+  border-radius: 10px;
+  top: -2px;
+  right: -2px;
+}
+
 .channel-dp {
   width: 40px;
   border-radius: 20px;
-}
-
-/*
-.search-img {
-  width: 24px;
-  height: 24px;
-}
-*/
-.mic-img {
-  width: 24px;
-  height: 24px;
-  margin-left: 15px;
 }
 
 /*

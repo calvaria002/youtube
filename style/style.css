@@ -6,6 +6,12 @@
 
 body {
   padding-bottom: 700px;
+  padding-top: 80px;
+  padding-left: 80px;
+}
+
+a {
+  cursor: pointer;
 }
 
 .grid-vid-preview {
@@ -13,7 +19,22 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 20px;
   row-gap: 40px;
-  margin-top: 25px;
+}
+
+.vid-thumpnail {
+  position: relative;
+}
+
+.video-time {
+  background-color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  font-style: bold;
+  color: white;
+  padding: 4px 2px;
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+  border-radius: 2px;
 }
 
 .thumpnails {
