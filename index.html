@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/video-grid.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/sidebar.css">
     <title>Youtube Clone</title>
@@ -18,38 +18,75 @@
     </div>
 
     <div class="center-section">
+
         <input class="search-bar" type="text" placeholder=" Search " >
-        <button class="search-button"> <img src="icon/search.svg" alt="">  </button>
-       <button class="mic-button"> <img src="icon/voice-search-icon.svg" alt=""> </button>  
+       
+        <button class="search-button">
+             <img src="icon/search.svg" alt=""> 
+            <div class="tool-tip"> Search</div>    
+        </button>
+      
+        <button class="mic-button"> 
+            <img src="icon/voice-search-icon.svg" alt=""> 
+            <div class="tool-tip"> Search with your voice</div>
+        </button>  
    </div>   
 
-    <div class="right-section">    
-      <a href="" > <img class="upload" src="icon/upload.svg" alt=""> </a>
-       <a href=""> <img class="youtube-apps" src="icon/youtube-apps.svg" alt=""> </a>
+    <div class="right-section">  
+        <div class=" upload-con">
+            <a href="" > <img class="upload" src="icon/upload.svg" alt=""> </a>
+             <div class="tool-tip"> Upload</div>
+        </div>  
+        <div class="youtube-apps-con">
+            <a href=""> <img class="youtube-apps" src="icon/youtube-apps.svg" alt=""> </a>
+            <div class="tool-tip"> Youtube apps </div>
+        </div>
+       
       <div class="noti-bell" href="" > 
         <a href=""> <img class="noti" src="icon/notifications.svg" alt="">
         <div class="noti-num"> 3 </div> </a>
+        <div class="tool-tip"> Notifications</div>
       </div>
      
-      <a href="" > <img class="channel-dp" src="thumpnails/channel-dp.jpeg" alt=""> </a>
+         <a href="" > <img class="channel-dp" src="thumpnails/channel-dp.jpeg" alt=""> </a>
+        
     </div>
 </header>
 
                         <!-- SIDE-BAR-->
-<div class="sidebar">
-      <div class="home">
-    <div class="nav-sidebar"></div>
-      <div class="nav-sidebar"></div>
-      <div class="nav-sidebar"></div>
-      <div class="nav-sidebar"></div>
-      <div class="nav-sidebar"></div>
-      <div class="nav-sidebar"></div>
-
+  <div class="sidebar">
+     <div class="nav-sidebar"> 
+    <img src="nav-icons/home.svg"> 
+    <div> Home</div>
+</div>
+  <div class="nav-sidebar"> 
+    <img src="nav-icons/explore.svg" alt="">
+     <div> Explore</div>
+  </div>
+    <div class="nav-sidebar">  
+    <img src="nav-icons/subscriptions.svg" alt="">
+     <div> Supscriptions </div>
+    </div>
+    <div class="nav-sidebar">
+        <img src="nav-icons/originals.svg" alt="">
+         <div> Originals </div>
+    </div>
+    <div class="nav-sidebar">
+        <img src="nav-icons/youtube-music.svg" alt="">
+     <div> Youtube-music </div>
+    </div>
+    <div class="nav-sidebar">
+        <img src="nav-icons/library.svg" alt="">
+         <div> Library</div>
+    </div>
+ 
 </div>
 
 
                         <!--Boxes-->
+
  <div class="grid-vid-preview"> 
+
                         <!-- Box 1-->
     <div class="video-preview">
         <div class="vid-thumpnail">
@@ -191,213 +228,151 @@ Kadane's Algorithm to Maximum Sum Subarray Problem </p>
         
 
 
+  <!--  </div> --> 
+
+                                <!-- Duplicate -->
+
+    
+                        <!-- Box 1-->
+    <div class="video-preview">
+        <div class="vid-thumpnail">
+        <img class="thumpnails" src="thumpnails/thumbnail-1.webp" alt="">
+        <div class="video-time"> 14:20 </div>
+    </div>
+        <div class="grid-vid-des">
+            <a class="logo" href=""> <img src="thumpnails/logo1.jpeg" alt=""> </a>
+          <div class="vid-info">
+              <p class="title">
+                Talking Tech and AI with Google CEO Sundar Pichai! </p>
+              <p class="v-author">Marques Brownlee</p>
+             <p class="v-stats"> 3.4M views · 6 months ago </p>
+          </div>
+        </div>
+    </div>
+                         <!-- Box 2-->   
+     <div class="video-preview">
+        <div class="vid-thumpnail">
+         <img class="thumpnails" src="thumpnails/thumbnail-2.webp" alt="">
+         <div class="video-time"> 8:22 </div>
+       </div> 
+       <div class="grid-vid-des">
+            <a class="logo" href=""> <img src="thumpnails/logo2.jpeg" alt=""> </a>
+          <div class="vid-info">
+              <p class="title"> Try Not To Laugh Challenge #9 </p>
+              <p class="v-author"> Markiplier</p>
+             <p class="v-stats"> 19M views · 4 years ago</p>
+          </div>
+        </div>
+    </div>
+                        <!-- Box 3-->
+    <div class="video-preview">
+        <div class="vid-thumpnail">
+         <img class="thumpnails" src="thumpnails/thumbnail-3.webp" alt="">
+         <div class="video-time"> 9:13 </div>
+        </div>
+        <div class="grid-vid-des">
+            <a class="logo" href=""> <img src="thumpnails/logo3.jpeg" alt=""> </a>
+          <div class="vid-info">
+              <p class="title">
+Crazy Tik Toks Taken Moments Before DISASTER</p>
+              <p class="v-author"> SSSniperWolf</p>
+             <p class="v-stats"> 12M views · 1 year ago </p>
+          </div>
+        </div>
+    </div>
+                        <!-- Box 4-->
+        <div class="video-preview">
+            <div class="vid-thumpnail">
+                <img class="thumpnails" src="thumpnails/thumbnail-4.webp" alt="">          
+                <div class="video-time"> 22:09 </div>
+            </div>
+            <div class="grid-vid-des">           
+                <a class="logo" href=""> <img src="thumpnails/logo4.jpeg" alt=""> </a>
+              <div class="vid-info">
+                  <p class="title">The Simplest Math Problem No One Can Solve - Collatz </p>
+                  <p class="v-author"> Veritasium</p>
+                 <p class="v-stats">18M views · 4 months ago</p>
+              </div>
+            </div>
+        </div>
+                        <!-- Box 5-->
+        <div class="video-preview">
+            <div class="vid-thumpnail">
+             <img class="thumpnails" src="thumpnails/thumbnail-5.webp" alt="">          
+             <div class="video-time"> 11:27 </div>
+            </div>
+            <div class="grid-vid-des">           
+                <a class="logo" href=""> <img src="thumpnails/logo5.jpeg" alt=""> </a>
+              <div class="vid-info">
+                  <p class="title">
+                    Kadane's Algorithm to Maximum Sum Subarray Problem </p>
+                  <p class="v-author"> CS Dojo</p>
+                 <p class="v-stats"> 519K views · 5 years ago </p>
+              </div>
+            </div>
+        </div>
+                                <!-- Box 6-->
+        <div class="video-preview">
+            <div class="vid-thumpnail">
+             <img class="thumpnails" src="thumpnails/thumbnail-6.webp" alt="">          
+             <div class="video-time"> 19:59 </div>
+            </div>
+            <div class="grid-vid-des">           
+                <a class="logo" href=""> <img src="thumpnails/logo6.jpeg" alt=""> </a>
+              <div class="vid-info">
+                  <p class="title"> Anything You Can Fit In The Circle I&apos;ll Pay For </p>
+                  <p class="v-author"> MrBeast</p>
+                 <p class="v-stats"> 141M views · 1 year ago </p>
+              </div>
+            </div>
+        </div>
+                        <!-- Box 7-->
+        <div class="video-preview">
+            <div class="vid-thumpnail">
+             <img class="thumpnails" src="thumpnails/thumbnail-7.webp" alt="">          
+             <div class="video-time"> 10:13 </div>
+            </div>
+            <div class="grid-vid-des">           
+                <a class="logo" href=""> <img src="thumpnails/logo7.jpeg" alt=""> </a>
+              <div class="vid-info">
+                  <p class="title"> Why Planes Don't Fly Over Tibet </p>
+                  <p class="v-author">RealLifeLore</p>
+                 <p class="v-stats"> 6.6M views · 1 year ago </p>
+              </div>
+            </div>
+        </div>
+                                    <!-- Box 8-->
+        <div class="video-preview">
+            <div class="vid-thumpnail">
+             <img class="thumpnails" src="thumpnails/thumbnail-8.webp" alt="">          
+             <div class="video-time"> 7:12 </div>
+            </div> 
+           <div class="grid-vid-des">           
+                <a class="logo" href=""> <img src="thumpnails/logo8.jpeg" alt=""> </a>
+              <div class="vid-info">
+                  <p class="title"> Inside The World's Biggest Passenger Plane</p>
+                  <p class="v-author"> Tech Vision</p>
+                 <p class="v-stats"> 3.7M views · 10 months ago</p>
+              </div>
+            </div>
+        </div>
+                                <!-- Box 9-->
+        <div class="video-preview">
+            <div class="vid-thumpnail">
+             <img class="thumpnails" src="thumpnails/thumbnail-9.webp" alt="">          
+             <div class="video-time"> 13:17 </div>
+            </div>
+            <div class="grid-vid-des">           
+                <a class="logo" href=""> <img src="thumpnails/logo9.jpeg" alt=""> </a>
+              <div class="vid-info">
+                  <p class="title"> The SECRET to Super Human STRENGTH </p>
+                  <p class="v-author"> ThenX</p>
+                 <p class="v-stats"> 20M views · 3 year ago </p>
+              </div>
+            </div>
+        </div>
+        
+
+
     </div>
     
-<br>
-<br>
-<br>
-<br>
-<br>
-  
-<br>
-<br>
-<br>
-<br>
-<br>  
-<br>
-<br>
-<br>
-<br>
-<br>  
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<!--
-
-    <div class="cat-facebook">
-    
-     <div class="cat-profile">
-        <img class="cat-thumpnails" src="thumpnails/cat2.jpg" alt="">
-     <div class="acc-details">
-        <div>
-        <p class="user-name"> Rex</p>
-        </div> 
-        <div class="acc-info">
-        <img class="cat-logo" src="thumpnails/logo1.jpeg" alt="">
-        <p class="m-friends"> 4 mutual freinds</p>
-        </div>   
-    <button class="add-friend"> Add Friend </button>
-     </div>   
-    </div>
-
-    <div class="cat-profile">
-        <img class="cat-thumpnails" src="thumpnails/cat2.jpg" alt="">
-     <div class="acc-details">
-        <div>
-        <p class="user-name"> Rex</p>
-        </div> 
-        <div class="acc-info">
-        <img class="cat-logo" src="thumpnails/logo1.jpeg" alt="">
-        <p class="m-friends"> 4 mutual freinds</p>
-        </div>   
-    <button class="add-friend"> Add Friend </button>
-     </div>   
-    </div>
-
-    <div class="cat-profile">
-        <img class="cat-thumpnails" src="thumpnails/cat2.jpg" alt="">
-     <div class="acc-details">
-        <div>
-        <p class="user-name"> Rex</p>
-        </div> 
-        <div class="acc-info">
-        <img class="cat-logo" src="thumpnails/logo1.jpeg" alt="">
-        <p class="m-friends"> 4 mutual freinds</p>
-        </div>   
-    <button class="add-friend"> Add Friend </button>
-     </div>   
-    </div>
-   
-</div>
-
-
-
-
-
-
-
-    <div class=" div-project ">
-        <div class="youtube">
-             <img class="vid-img" src="thumpnails/Bsaka.avif" alt=""> 
-        </div>
-        <div class="vid-info">
-            <p class="title"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi. </p>
-            <p class="author"> SuperSimpleDev </p>
-            <p class="info"> 1.5k views . 4 months ago</p>
-        </div>
-    </div>
-
-    <div class=" div-project ">
-        <div class="youtube">
-             <img class="vid-img" src="thumpnails/Bsaka.avif" alt=""> 
-        </div>
-        <div class="vid-info">
-            <p class="title"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi. </p>
-            <p class="author"> SuperSimpleDev </p>
-            <p class="info"> 1.5k views . 4 months ago</p>
-        </div>
-    </div>
-
-    <div class=" div-project ">
-        <div class="youtube">
-             <img class="vid-img" src="thumpnails/Bsaka.avif" alt=""> 
-        </div>
-        <div class="vid-info">
-            <p class="title"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi. </p>
-            <p class="author"> SuperSimpleDev </p>
-            <p class="info"> 1.5k views . 4 months ago</p>
-        </div>
-    </div>
-
-    <div>
-    <div class="cat-profile">
-        <img class="cat-thumpnails" src="thumpnails/cat1.jpg" alt="">
-
-        <p class="User-name"> Oliver</p>
-        <p class="m-friends"> 2 mutual freinds</p>
-        <button class="add-friend"> Add Friend </button>
-    </div>
-
-    <div class="cat-profile">
-        <img class="cat-thumpnails" src="thumpnails/cat3.jpg" alt="">
-        <p class="User-name">  Mimi</p>
-        <p class="m-friends"> 3 mutual freinds</p>
-        <button class="add-friend"> Add Friend </button>
-    </div>
-
-    <div class="cat-profile">
-        <img class="cat-thumpnails" src="thumpnails/cat2.jpg" alt="">
-
-        <p class="User-name"> Rex</p>
-        <p class="m-friends"> 4 mutual freinds</p>
-        <button class="add-friend"> Add Friend </button>
-    </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="div-twitter"> 
-    <div class="user-dp">
-        <img class="saka" src="thumpnails/saka.webp">   </img>
-        <p class="whats-happening"> Whats happening? </p>
-    </div>
-    <button class="tweet"> Tweet </button>
-</div>
-
-<div>
-    <p class="survey">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, magni.
-    </p>
-
-    <button class="yes"> Yes </button>
-    <button class="No"> No </button>
-
-</div>
-
-<div class="google">
-<h1>
-     <span class="G-lightblue">G</span>
-     <span class="o-red">o</span> 
-     <span class="o-yellow">o</span> 
-     <span class="g-lightblue">g</span> 
-     <span class="l-green">l</span> 
-     <span class="e-red">e</span>  
-    
-</h1>
-<input type="text" placeholder=" Search Google or type URL" >
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>

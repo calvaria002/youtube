@@ -1,7 +1,32 @@
+.sidebar{
+  position: fixed;
+  left:0;
+  bottom:0;
+  top:55px;
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+  background-color: white;
+}
 
+.nav-sidebar{
+  height:74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
 
-/*
+.nav-sidebar:hover{
+  background-color: rgb(235, 227, 227);
+  } 
+
 .nav-sidebar img {
-  width: 24px;
-  height: 24px;
+  height: 24px;  
+}
+
+.nav-sidebar div{
+  font-size: 10px;
+  margin-top: 10px;
 }
